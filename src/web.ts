@@ -21,6 +21,3 @@ export class IosSwipeBackWeb extends WebPlugin implements IosSwipeBackPlugin {
 const IosSwipeBack = new IosSwipeBackWeb();
 
 export { IosSwipeBack };
-
-import { registerWebPlugin } from '@capacitor/core';
-registerWebPlugin(IosSwipeBack);
